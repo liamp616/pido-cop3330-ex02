@@ -35,8 +35,7 @@ public class App {
     }
 
     private void checkInput(String input) {
-        int length = input.length();
-        System.out.println(input + " has " + length + " characters.");
+        System.out.println(input + " has " + input.length() + " characters.");
     }
 
     public String readString() {
